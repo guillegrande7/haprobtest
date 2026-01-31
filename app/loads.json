@@ -1,0 +1,15 @@
+[
+  {
+    "load_id": "LR-101",
+    "origin": "Laredo, TX",
+    "destination": "Chicago, IL",
+    "pickup_datetime": "2026-02-01T08:00:00",
+    "delivery_datetime": "2026-02-03T17:00:00",
+    "equipment_type": "Dry Van",
+    "loadboard_rate": 2500,
+    "weight": 42000,
+    "commodity_type": "Produce",
+    "miles": 1350,
+    "notes": "No touch freight, clean trailer required"
+  }
+]
