@@ -33,7 +33,7 @@ class CallSummary(BaseModel):
     mc_number: str
     outcome: str  # Ejemplo: "BOOKED", "FAILED_NEGOTIATION"
     sentiment: str # Ejemplo: "Happy", "Frustrated"
-    final_rate: Optional[float] = None
+    final_rate: Optional[str] = None
     transcript_summary: str
 
 # --- ENDPOINTS ---
