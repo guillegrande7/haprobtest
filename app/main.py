@@ -310,7 +310,7 @@ def view_dashboard(
                 <td><b>{item.get('load_id')}</b></td>
                 <td><span class="badge {'status-1' if is_booked else 'status-0'}">{'BOOKED' if is_booked else 'LOST'}</span></td>
                 <td>${orig}</td>
-                <td style="color: {trend_color}; font-weight: bold;">$4{final if final > 0 else '-'}</td>
+                <td style="color: {trend_color}; font-weight: bold;">${final if final > 0 else '-'}</td>
                 <td style="color: {trend_color}; font-weight: bold;">{var_display}</td>
                 <td>{sentiment_display}</td>
                 <td title="{summary_text}"><small style="color: #64748b;">{summary_text}</small></td>
