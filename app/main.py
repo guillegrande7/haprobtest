@@ -138,8 +138,8 @@ def view_dashboard(
         sentiment_counts[s_label] = sentiment_counts.get(s_label, 0) + 1
         
         if item.get('booked') == 1:
-            orig = item.get('original_rate', 0) / 100.0
-            final = item.get('final_rate', 0) / 100.0
+            orig = item.get('original_rate', 0)
+            final = item.get('final_rate', 0)
             if orig > 0:
                 variations.append(((final - orig) / orig) * 100)
     
@@ -290,8 +290,8 @@ def view_dashboard(
     # Table Rows
     for item in data:
         is_booked = item.get('booked') == 1
-        orig = item.get('original_rate', 0) / 100.0
-        final = item.get('final_rate', 0) / 100.0
+        orig = item.get('original_rate', 0)
+        final = item.get('final_rate', 0)
         
         if is_booked and orig > 0:
             var_pct = ((final - orig) / orig * 100)
@@ -309,8 +309,8 @@ def view_dashboard(
             <tr>
                 <td><b>{item.get('load_id')}</b></td>
                 <td><span class="badge {'status-1' if is_booked else 'status-0'}">{'BOOKED' if is_booked else 'LOST'}</span></td>
-                <td>${orig:.2f}</td>
-                <td style="color: {trend_color}; font-weight: bold;">${(final if final > 0 else '-'):.2f}</td>
+                <td>${orig}</td>
+                <td style="color: {trend_color}; font-weight: bold;">$4{final if final > 0 else '-'}</td>
                 <td style="color: {trend_color}; font-weight: bold;">{var_display}</td>
                 <td>{sentiment_display}</td>
                 <td title="{summary_text}"><small style="color: #64748b;">{summary_text}</small></td>

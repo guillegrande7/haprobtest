@@ -1,8 +1,8 @@
-{"load_id": "LR-101", "mc_number": "12345", "booked": 0, "sentiment": "Neutral", "original_rate": 250000, "final_rate": 500000, "transcript_summary": "Not interested in the rate offered."}
-{"load_id": "LR-101", "mc_number": "12345", "booked": 1, "sentiment": "Happy", "original_rate": 250000, "final_rate": 265000, "transcript_summary": "Agreed to the rate after discussing fuel costs."}
-{"load_id": "LR-102", "mc_number": "12345", "booked": 1, "sentiment": "Frustration", "original_rate": 250000, "final_rate": 260000, "transcript_summary": "Problems with his family, he needs the money."}
-{"load_id": "LR-103", "mc_number": "100100", "booked": 1, "sentiment": "Angry", "original_rate": 150000, "final_rate": 500000, "transcript_summary": "Too low but accepted under pressure."}
-{"load_id": "LR-104", "mc_number": "200200", "booked": 0, "sentiment": "Neutral", "original_rate": 320000, "final_rate": 325575, "transcript_summary":"Not interested in this load."}
-{"load_id": "LR-104",	"mc_number":"200200","booked" : 1,"sentiment":"Happy","original_rate" :325575,"final_rate" :337899,"transcript_summary":"Accepted after negotiating a better rate."}
-{"load_id": "LR-105", "mc_number": "300300", "booked": 0, "sentiment": "Frustration", "original_rate": 180000, "final_rate": 1000, "transcript_summary": "Rate too low for the distance."}
-{"load_id": "LR-105", "mc_number": "12345", "booked": 0, "sentiment": "Happy", "original_rate": 180000, "final_rate": 190000, "transcript_summary": "Managed to find loading dock."}
+{"load_id": "LR-101", "mc_number": "12345", "booked": 0, "sentiment": "Neutral", "original_rate": 2500, "final_rate": 5000, "transcript_summary": "Not interested in the rate offered."}
+{"load_id": "LR-101", "mc_number": "12345", "booked": 1, "sentiment": "Happy", "original_rate": 2500, "final_rate": 2650, "transcript_summary": "Agreed to the rate after discussing fuel costs."}
+{"load_id": "LR-102", "mc_number": "12345", "booked": 1, "sentiment": "Frustration", "original_rate": 2500, "final_rate": 2600, "transcript_summary": "Problems with his family, he needs the money."}
+{"load_id": "LR-103", "mc_number": "100100", "booked": 1, "sentiment": "Angry", "original_rate": 150000, "final_rate": 5000, "transcript_summary": "Too low but accepted under pressure."}
+{"load_id": "LR-104", "mc_number": "200200", "booked": 0, "sentiment": "Neutral", "original_rate": 320000, "final_rate": 3255, "transcript_summary":"Not interested in this load."}
+{"load_id": "LR-104",	"mc_number":"200200","booked" : 1,"sentiment":"Happy","original_rate" :3255,"final_rate" :3378,"transcript_summary":"Accepted after negotiating a better rate."}
+{"load_id": "LR-105", "mc_number": "300300", "booked": 0, "sentiment": "Frustration", "original_rate": 1800, "final_rate": 100, "transcript_summary": "Rate too low for the distance."}
+{"load_id": "LR-105", "mc_number": "12345", "booked": 0, "sentiment": "Happy", "original_rate": 1800, "final_rate": 1900, "transcript_summary": "Managed to find loading dock."}
