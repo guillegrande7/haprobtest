@@ -11,5 +11,70 @@
     "commodity_type": "Produce",
     "miles": 1350,
     "notes": "No touch freight, clean trailer required"
+  },
+  {
+    "load_id": "LR-102",
+    "origin": "Savannah, GA",
+    "destination": "Atlanta, GA",
+    "pickup_datetime": "2026-02-01T10:00:00",
+    "delivery_datetime": "2026-02-01T15:00:00",
+    "equipment_type": "Flatbed",
+    "loadboard_rate": 850,
+    "weight": 45000,
+    "commodity_type": "Steel Coils",
+    "miles": 250,
+    "notes": "Tarping required, 4 chains needed"
+  },
+  {
+    "load_id": "LR-103",
+    "origin": "Los Angeles, CA",
+    "destination": "Phoenix, AZ",
+    "pickup_datetime": "2026-02-02T06:00:00",
+    "delivery_datetime": "2026-02-02T18:00:00",
+    "equipment_type": "Reefer",
+    "loadboard_rate": 1200,
+    "weight": 38000,
+    "commodity_type": "Frozen Seafood",
+    "miles": 370,
+    "notes": "Maintain temp at -10°F, continuous run"
+  },
+  {
+    "load_id": "LR-104",
+    "origin": "Allentown, PA",
+    "destination": "Miami, FL",
+    "pickup_datetime": "2026-02-01T14:00:00",
+    "delivery_datetime": "2026-02-03T09:00:00",
+    "equipment_type": "Dry Van",
+    "loadboard_rate": 3200,
+    "weight": 22000,
+    "commodity_type": "Electronics",
+    "miles": 1150,
+    "notes": "High value load, team drivers preferred"
+  },
+  {
+    "load_id": "LR-105",
+    "origin": "Denver, CO",
+    "destination": "Salt Lake City, UT",
+    "pickup_datetime": "2026-02-04T08:00:00",
+    "delivery_datetime": "2026-02-04T20:00:00",
+    "equipment_type": "Step Deck",
+    "loadboard_rate": 1800,
+    "weight": 35000,
+    "commodity_type": "Agricultural Machinery",
+    "miles": 520,
+    "notes": "Oversize permits included, loading dock required"
+  },
+  {
+    "load_id": "LR-106",
+    "origin": "Phoenix, AZ",
+    "destination": "Las Vegas, NV",
+    "pickup_datetime": "2026-02-05T09:00:00",
+    "delivery_datetime": "2026-02-05T18:00:00",
+    "equipment_type": "Dry Van",
+    "loadboard_rate": 5600,
+    "weight": 25000,
+    "commodity_type": "Agricultural Machinery",
+    "miles": 520,
+    "notes": "Oversize permits included, loading dock required"
   }
 ]
