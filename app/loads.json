@@ -89,18 +89,5 @@
     "commodity_type": "Agricultural Machinery",
     "miles": 520,
     "notes": "Oversize permits included"
-  },
-  {
-    "load_id": "LR-108",
-    "origin": "Seattle, WA",
-    "destination": "New York, NY",
-    "pickup_datetime": "2026-02-08T09:00:00",
-    "delivery_datetime": "2026-02-08T18:00:00",
-    "equipment_type": "Dry Van",
-    "loadboard_rate": 30000,
-    "weight": 300,
-    "commodity_type": "Agricultural Machinery",
-    "miles": 520,
-    "notes": "Oversize permits included"
   }
 ]
